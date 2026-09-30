@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+a.out
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# Debug files
+*.pdb
+*.ilk
+*.dSYM/
+
+# Coverage files
+*.gcda
+*.gcno
+*.gcov
+
+# Generated dependency files
+*.d
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+/cmake-build-*/
+
+# Personal VS Code settings
+.vscode/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

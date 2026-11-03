@@ -4,12 +4,14 @@
 #include <stdio.h>
 
 int is_first_two_digits_prime(int n){
-  for(int i=2; i< n%100;i++){
-    if(n%100%i==0){
-        return 0;
+    int i = 2;
+    while(i< n%100){
+        if(n%100%i==0){
+            return 0;
+        }
+        i++;
     }
-  }
-  return 1;
+    return 1;
 }
 
 int main(){
